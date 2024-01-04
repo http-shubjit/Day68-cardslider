@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards Slider</title>
+  <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery{
+
+
+width: 30%;
+height: 200px;
+display: flex;
+gap: 10px;
+}
+
+.gallery img{
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: all ease 1s;
+}
+.gallery img:hover{
+  width: 100%;
+}
+  </style>
+</head>
+<body>
+  <div class="gallery">
+
+    <img src="default-firstframe.png" alt="">
+    <img src="default-firstframe.png" alt="">
+    <img src="default-firstframe.png" alt="">
+    <img src="default-firstframe.png" alt="">
+  </div>
+</body>
+</html>
